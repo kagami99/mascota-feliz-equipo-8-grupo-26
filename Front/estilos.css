@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F1F6F9;
+ }
+ .cont{
+    height:100vh;
+    width: 75%;
+    background-color: #F1F6F9;
+    float: left;
+    color: #14274E;
+    
+}
+.menu{
+  height:100vh;
+  width: 25%;
+  background-color: #14274E;
+  color: #F1F6F9;
+  float: left;
+  overflow-y: scroll;
+  }
+.menu__logo{
+  display:block;
+  margin:auto;
+  width: 50%;
+  object-fit: cover;
+}
+.menu__link{
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+.menu__link--inside{
+    border-radius: 7px;
+    padding-left: 25px;
+    text-align: left;
+}
+.menu__link--inside:hover{
+    background: #394867;
+}
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.list__item--click{
+    cursor: pointer;
+}
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+.list__arrow{
+    margin-left: auto;
+    cursor: pointer;
+    transition: transform .3s;
+}
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #F1F6F9;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+.titulo{
+    margin-top: 50px;
+    color: #14274E;
+    text-align: center;
+ 
+}
+.count_form{
+    width: 60%;
+    height: auto;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    
+}
+.form_label{
+    width: 48%;
+    display: inline-block;
+    color: #14274E;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.form_input{
+    width: 48%;
+    border-radius: 20px;
+    color: #14274E;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.form_button{
+    display: block;
+    width: 20%;
+    height: 40px;
+    margin: auto;
+    border-radius: 40px;
+    background-color: #14274E;
+    font-size: 16px;
+    border: none;
+}
+.form_button:hover{
+    background: #394867;
+    cursor: pointer;
+}
+.count_table{
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    
+}
+.table{
+    margin: auto;
+   
+}
+.table_titulo{
+    background-color: #14274E;
+}
+.table_titulo_celdas{
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    margin: 0;
+
+}
+.table_filas{
+    background-color: #394867;
+}

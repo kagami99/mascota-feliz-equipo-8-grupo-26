@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\lenovo ssd\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lenovo ssd\\.nuget\\packages"
+    ]
+  }
+}
